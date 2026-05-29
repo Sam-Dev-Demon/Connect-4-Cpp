@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1779519181 source:d:\c++ stuff\sfml\projects\connect 4\src\main.cpp
+	"Game.h"
+
+1779958748 d:\c++ stuff\sfml\projects\connect 4\include\game.h
+	<SFML/Graphics.hpp>
+	<string>
+	<vector>
+	"Button.h"
+
+1779958847 source:d:\c++ stuff\sfml\projects\connect 4\src\game.cpp
+	"Game.h"
+
+1779694565 source:d:\c++ stuff\sfml\projects\connect 4\src\button.cpp
+	"Button.h"
+
+1779694659 d:\c++ stuff\sfml\projects\connect 4\include\button.h
+	<SFML/Graphics.hpp>
+	<string>
+
