@@ -1,0 +1,20 @@
+<NotepadPlus>
+    <Project name="Connect 4">
+        <Folder name="source">
+            <File name="src\Button.cpp" />
+            <File name="src\Game.cpp" />
+            <File name="src\main.cpp" />
+            <File name="src\Board.cpp" />
+            <File name="src\Menu.cpp" />
+            <File name="src\Logic.cpp" />
+        </Folder>
+        <Folder name="header">
+            <File name="include\Button.h" />
+            <File name="include\Game.h" />
+            <File name="include\Board.h" />
+            <File name="include\Menu.h" />
+            <File name="include\Logic.h" />
+        </Folder>
+        <File name="CMakeLists.txt" />
+    </Project>
+</NotepadPlus>
