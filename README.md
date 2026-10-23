@@ -1,12 +1,13 @@
-This is a Connect 4 Project made in C++ SFML. 
+# Connect 4 Version 2
+I wrote the code again from scratch, but with more knowledge. I made a simple AI bot to play Connect 4 in AI mode. I've made several changes to the UI and color palette of the game. Most importantly, it took me damn lot of effort. I guess I'll go for bigger projects now. Comparing with my previous version, I think I've done a good job. Still, this code is a mess ngl. 
 
-Below is a guide on how to run it on your pc.
+## Dependencies
+So, you'll need SFML version 3.1.0 to run this project. About C++ compiler, refer to SFML official website. You may also need to modify CMakeLists.txt according to your needs but be sure you know what you're upto, cause I'm not too sure about that. The workspace file you'll see will help you only if you're a notepad++ user. You can literally compile it on cmd with two simple cmake commands given you've sorted all the dependencies.
 
-Install SFML library from their official website: https://www.sfml-dev.org/
+###### For generating build files :
+cmake -S. -B build -G "MinGW Makefiles"
 
-Setup the library in your code editor. Make sure to link the include folder of the library in you linker settings.
+###### For building project exe :
+cmake --build build --parallel
 
-Also, this project is made in 32 bit system. So, the dll files will not work.
-  For that, the dll files must be copied from SFML library folder and placed in the same folder as .exe
-  You may also need to install some additional dlls.
-    You can just search for their name and you'll be able to download them.
+#### Link to SFML : https://www.sfml-dev.org/download/sfml/3.1.0/
